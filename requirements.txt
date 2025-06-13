@@ -1,0 +1,9 @@
+langchain
+langgraph
+python-dotenv
+google-generativeai
+dateparser
+pandas
+requests
+matplotlib
+seaborn
