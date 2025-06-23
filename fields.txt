@@ -1,0 +1,142 @@
+# Pump efficiency
+Pump_1_EM_1_VRY: Voltage between R and Y phase for Pump 1
+Pump_1_EM_1_VYB: Voltage between Y and B phase for Pump 1
+Pump_1_EM_1_VBR: Voltage between B and R phase for Pump 1
+Pump_1_EM_1_IR: Current in R phase for Pump 1
+Pump_1_EM_1_IY: Current in Y phase for Pump 1
+Pump_1_EM_1_IB: Current in B phase for Pump 1
+Pump_1_EM_1_Freq: Frequency of power supply to Pump 1
+Pump_1_EM_1_PF: Power Factor of Pump 1 motor
+Pump_1_EM_1_KW: Active Power in kW consumed by Pump 1
+Pump_1_EM_1_KWH: Energy consumed by Pump 1 in kWh
+Pump_1_Daily_RH: Daily running hours of Pump 1
+
+Pump_2_EM_2_VRY: Voltage between R and Y phase for Pump 2
+Pump_2_EM_2_VYB: Voltage between Y and B phase for Pump 2
+Pump_2_EM_2_VBR:Voltage between B and R phase for Pump 2
+Pump_2_EM_2_IR: Current in R phase for Pump 2
+Pump_2_EM_2_IY: Current in Y phase for Pump 2
+Pump_2_EM_2_IB: Current in B phase for Pump 2.
+Pump_2_EM_2_Freq: Frequency of power supply to Pump 2
+Pump_2_EM_2_PF: Power Factor of Pump 2 motor
+Pump_2_EM_2_KW: Active Power in kW consumed by Pump 2
+Pump_2_EM_2_KWH: Energy consumed by Pump 2 in kWh
+Pump_2_Daily_RH: Daily running hours of Pump 2
+
+# pressure
+1_Pressure: Pressure reading from sensor 1 also known as Outlet PT-1
+2_Pressure: Pressure reading from sensor 2 also known as Outlet PT-2
+3_Pressure: Tail-end pressure reading from sensor 3
+outlet_pressure: Calculated outlet pressure, derived from average of 1_Pressure and 2_Pressure
+inlet_pressure: No description available.
+Total_Pressure: Aggregate pressure value
+
+# chlorine
+Sump_level: Water level in sump (source tank)
+1_Chlorine: Inlet chlorine concentration from sensor 1
+2_Chlorine: Tail-end chlorine concentration from sensor 2
+
+# energy consumption
+dailyConsumption: Total energy consumption for the day of pump 1
+dailyConsumptionn: Total energy consumption for the day of pump 2
+monthlyConsumption: Total water consumption for the month of pump 1
+monthlyConsumptionn: Total water consumption for the month of pump 2
+weeklyConsumption: Total energy consumption for the week of pump 1
+weeklyConsumptionn: Total energy consumption for the week of pump 2
+
+# Daily consumption of water
+dailyConsumption1: Daily consumption of water from Outlet-1 Flow meter
+weeklyConsumption1: Weekly consumption of water from Outlet-1 Flow meter.
+monthlyConsumption1: Monthly consumption of water from Outlet-1 flow meter
+dailyConsumption2: Daily consumption of water from Outlet-2 Flow meter
+dailyConsumption3: Daily consumption of water from Inlet Flow meter
+weeklyConsumption3: Weekly consumption of water from Inlet Flow meter.
+
+
+# flow rate 
+head: Total head.
+flow: Total flow.
+Flow_P1: Flow rate of Pump-1.
+Head_P1: Head of Pump-1.
+Flow_P2: Flow rate of Pump-2.
+Head_P2: Head of Pump-2.
+1_Flow_ls: Flow rate in liters/second for Outlet-1 Flow meter
+2_Flow_ls: Flow rate in liters/second for Outlet-2 Flow meter
+3_Flow_ls: Flow rate in liters/second for Inlet Flow meter
+1_Flow_m3h: Flow rate in cubic meters/hour for Outlet-1 Flow meter
+2_Flow_m3h: Flow rate in cubic meters/hour for Outlet-2 Flow meter
+3_Flow_m3h: Flow rate in cubic meters/hour for Inlet Flow meter
+Flow_1_Today_Totalizer: Total today Flow rate of water for Outlet-1 Flow meter
+Flow_1_Totalizer: Total Flow rate of water for Outlet-1 Flow meter
+Flow_1_PreDay_Totalizer: Total previous day Flow rate of water for Outlet-1 Flow meter
+Flow_2_Today_Totalizer: Total today Flow rate of water for Outlet-2 Flow meter
+Flow_2_Totalizer: Total Flow rate of water for Outlet-2 Flow meter
+Flow_2_PreDay_Totalizer:  Total previous day Flow rate of water for Outlet-2 Flow meter
+Flow_3_Today_Totalizer: Total today Flow rate of water for Inlet Flow meter
+Flow_3_Totalizer: Total Flow rate of water for Inlet Flow meter
+Flow_3_PreDay_Totalizer: Total previous day Flow rate of water for Inlet Flow meter
+Total_Flow: Overall flow through system, derived from addition of 1_Flow_ls and 2_Flow_ls
+
+# valves
+Out_Valve_1_Open: Outlet valve 1 shows open status of outlet flow 1 pipe
+Out_Valve_1_Close: Outlet valve 1 shows close status of outlet flow 1 pipe
+Out_Valve_1_Remote: Outlet valve 1 shows remote status 
+Out_Valve_2_Open: Outlet valve 2 shows open status of outlet flow 2 pipe
+Out_Valve_2_Close: Outlet valve 2 shows close status of outlet flow 2 pipe
+Out_Valve_2_Remote: Outlet valve 2 shows remote status
+In_Valve_Open: Inlet valve which shows water coming in sump open status
+In_Valve_Close: Inlet valve which shows water coming in sump close status
+In_Valve_Remote:Inlet valve which shows water coming in sump remote status
+
+
+P1_max_Deviation: Max deviation in voltage/current for Pump 1
+P1_unbalance_per: % unbalance in 3-phase system for Pump 1
+P2_max_Deviation: Max deviation in voltage/current for Pump 2
+P2_unbalance_per: % unbalance in 3-phase system for Pump 2 
+peripheral: No description available.
+RTU_id: ID of the Remote Terminal Unit
+rtu_mode: Mode of RTU (e.g. auto/manual)
+alarm_bit: Binary flag for active alarm state
+
+
+Pump_1_On: Status bit for pump 1 ON
+Pump_1_OL_Trip: Status bit for pump 1 overload trip
+Pump_1_Remote: Status bit for pump 1 remote operation
+Pump_2_On: Status bit for pump 2 ON
+Pump_2_OL_Trip: Status bit for pump 2 overload trip
+Pump_2_Remote: Status bit for pump 2 remote operation
+
+Rec_Valve_Open: Recirculation valve open status
+Bypass_Valve_Close: Bypass valve close status
+
+Spp_Trip: Setpoint pump trip flag
+Power_Fail: Power failure indicator
+
+
+pump_2_ON_TS: No description available.
+prev_pump_2_ON_Status: No description available.
+pump_2_total_TS: No description available.
+pump_1_ON_TS: No description available.
+pump_1_total_TS: No description available.
+prev_pump_1_ON_Status: No description available. 
+Pump_Status: Computed or summarized status of pump system
+NRW: Non-Revenue Water (absolute)
+NRW_per: Non-Revenue Water (%)
+
+Max_Pump_1_Daily_RH: Maximum daily runtime of Pump 1
+Max_Pump_2_Daily_RH: Maximum daily runtime of Pump 2
+totalPump2DailyConsumption: Total energy consumption by Pump 2
+totalPump1DailyConsumption: Total energy consumption by Pump 1
+
+recommendation: Output text generated from performance curve analysis
+
+Bypass_Valve_Mode: Dashboard toggle for bypass valve mode
+Bypass_Water_Flow_Active: Visual status of bypass flow
+Show_Water_in_Pipe: Visual effect toggle for water in pipe
+Water_Animation_Speed: No description available.
+Show_Water_General_Pipes: Visual effect for general pipes
+Show_Water_Bypass_Mode_Only: Visual toggle for bypass mode only
+
+actualDailyConsumption: No description available.
+Total_Distributed_Water: No description available.
+Total_Incoming_Water: No description available.
