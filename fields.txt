@@ -1,0 +1,148 @@
+# Pump efficiency
+Pump_1_EM_1_VRY: Voltage (V) between R and Y phases for Pump 1
+Pump_1_EM_1_VYB: Voltage (V) between Y and B phases for Pump 1
+Pump_1_EM_1_VBR: Voltage (V) between B and R phases for Pump 1
+Pump_1_EM_1_IR: Current (A) in R phase for Pump 1
+Pump_1_EM_1_IY: Current (A) in Y phase for Pump 1
+Pump_1_EM_1_IB: Current (A) in B phase for Pump 1
+Pump_1_EM_1_Freq: Frequency (Hz) of power supply to Pump 1
+Pump_1_EM_1_PF: Power factor of Pump 1 motor
+Pump_1_EM_1_KW: Instantaneous active power (kW) consumed by Pump 1
+Pump_1_EM_1_KWH: Cumulative energy consumed by Pump 1 (kWh)
+Pump_1_Daily_RH: Daily running hours of Pump 1 (hours)
+
+Pump_2_EM_2_VRY: Voltage between R and Y phases for Pump 2
+Pump_2_EM_2_VYB: Voltage between Y and B phases for Pump 2
+Pump_2_EM_2_VBR: Voltage between B and R phases for Pump 2
+Pump_2_EM_2_IR: Current in R phase for Pump 2
+Pump_2_EM_2_IY: Current in Y phase for Pump 2
+Pump_2_EM_2_IB: Current in B phase for Pump 2
+Pump_2_EM_2_Freq: Frequency (Hz) of power supply to Pump 2
+Pump_2_EM_2_PF: Power factor of Pump 2 motor
+Pump_2_EM_2_KW: Instantaneous active power (kW) consumed by Pump 2
+Pump_2_EM_2_KWH: Cumulative energy consumed by Pump 2 (kWh)
+Pump_2_Daily_RH: Daily running hours of Pump 2 (hours)
+
+pump_2_ON_TS: Timestamp when Pump 2 was last turned ON
+prev_pump_2_ON_Status: ON/OFF status of Pump 2 just before the selected time period
+pump_2_total_TS: Total duration (seconds) Pump 2 has been ON during the selected time range
+pump_1_ON_TS: Timestamp when Pump 1 was last turned ON
+pump_1_total_TS: Total duration (seconds) Pump 1 has been ON during the selected time range
+prev_pump_1_ON_Status: ON/OFF status of Pump 1 just before the selected time period
+
+Pump_Status: Computed or summarized status of the pump system
+
+Pump_1_On: Status bit for Pump 1 (1 = running, 0 = stopped)
+Pump_1_OL_Trip: Overload trip status for Pump 1 (1 = tripped, 0 = normal)
+Pump_1_Remote: Remote operation status for Pump 1 (1 = remote, 0 = local)
+Pump_2_On: Status bit for Pump 2 (1 = running, 0 = stopped)
+Pump_2_OL_Trip: Overload trip status for Pump 2 (1 = tripped, 0 = normal)
+Pump_2_Remote: Remote operation status for Pump 2 (1 = remote, 0 = local)
+
+P1_max_Deviation: Maximum voltage/current deviation for Pump 1 (%)
+P1_unbalance_per: Percentage unbalance in 3-phase system for Pump 1 (%)
+P2_max_Deviation: Maximum voltage/current deviation for Pump 2 (%)
+P2_unbalance_per: Percentage unbalance in 3-phase system for Pump 2 (%)
+peripheral: Peripheral device status or value
+RTU_id: Remote Terminal Unit identifier
+rtu_mode: RTU operating mode (e.g., auto/manual)
+alarm_bit: Alarm status (1 = alarm active, 0 = normal)
+
+Max_Pump_1_Daily_RH: Maximum daily runtime of Pump 1 (hours)
+Max_Pump_2_Daily_RH: Maximum daily runtime of Pump 2 (hours)
+totalPump2DailyConsumption: Total energy consumed by Pump 2 today (kWh)
+totalPump1DailyConsumption: Total energy consumed by Pump 1 today (kWh)
+
+# pressure
+1_Pressure: Pressure (bar) measured by sensor 1 (Outlet PT-1)
+2_Pressure: Pressure (bar) measured by sensor 2 (Outlet PT-2)
+3_Pressure: Pressure (bar) measured by sensor 3 (tail-end)
+outlet_pressure: Calculated outlet pressure (bar), average of 1_Pressure and 2_Pressure
+inlet_pressure: Inlet pressure (bar) measured at the system inlet
+Total_Pressure: Aggregate system pressure (bar)
+
+# chlorine
+Sump_level: Water level in sump (meters or %)
+1_Chlorine: Inlet chlorine concentration (ppm) from sensor 1
+2_Chlorine: Tail-end chlorine concentration (ppm) from sensor 2
+
+# energy consumption
+DPR_Total_Energy: Total energy consumed today 
+dailyConsumption: Total energy consumed today by Pump 1 (kWh)
+dailyConsumptionn: Total energy consumed today by Pump 2 (kWh)
+monthlyConsumption: Total energy consumed this month by Pump 1 (kWh)
+monthlyConsumptionn: Total energy consumed this month by Pump 2 (kWh)
+weeklyConsumption: Total energy consumed this week by Pump 1 (kWh)
+weeklyConsumptionn: Total energy consumed this week by Pump 2 (kWh)
+
+# Water consumption
+DPR_Total_Water: Total water supplied today
+Pump_1_Water_Supplied: Water supplied today from Outlet-1 Flow meter (cubic meters)
+Pump_2_Water_Supplied: Water supplied today from Outlet-2 Flow meter (cubic meters)
+dailyConsumption3: Water supplied today from Inlet Flow meter (cubic meters)
+
+# flow rate of water
+head: Total system head (meters)
+flow: Total system flow rate (cubic meters/hour)
+Flow_P1: Flow rate of Pump 1 (cubic meters/hour)
+Head_P1: Head at Pump 1 (meters)
+Flow_P2: Flow rate of Pump 2 (cubic meters/hour)
+Head_P2: Head at Pump 2 (meters)
+1_Flow_m3h: Flow rate of water from Outlet-1 (cubic meters/hour)
+2_Flow_m3h: Flow rate of water from Outlet-2 (cubic meters/hour)
+3_Flow_m3h: Flow rate of water from Inlet (cubic meters/hour)
+
+Flow_1_Today_Totalizer: Today total Water consumption for Outlet-1 (cubic meters)
+Flow_1_Totalizer: Total Water consumption for Outlet-1 (cubic meters)
+Flow_1_PreDay_Totalizer: Totalized water consumption for Outlet-1 for previous day (cubic meters)
+
+Flow_2_Today_Totalizer: Today total Water consumption for Outlet-2 (cubic meters)
+Flow_2_Totalizer: Total Water consumption for Outlet-2 (cubic meters)
+Flow_2_PreDay_Totalizer: Totalized water consumption for Outlet-2 for previous day (cubic meters)
+
+Flow_3_Today_Totalizer: Today total Water consumption for Inlet (cubic meters)
+Flow_3_Totalizer: Total Water consumption for Inlet (cubic meters)
+Flow_3_PreDay_Totalizer:Totalized water consumption for Inlet for previous day (cubic meters)
+
+# valves
+Out_Valve_1_Open: Status of Outlet Valve 1 (1 = open, 0 = closed)
+Out_Valve_1_Close: Status of Outlet Valve 1 (1 = closed, 0 = open)
+Out_Valve_1_Remote: Remote status of Outlet Valve 1 (1 = remote, 0 = local)
+Out_Valve_2_Open: Status of Outlet Valve 2 (1 = open, 0 = closed)
+Out_Valve_2_Close: Status of Outlet Valve 2 (1 = closed, 0 = open)
+Out_Valve_2_Remote: Remote status of Outlet Valve 2 (1 = remote, 0 = local)
+In_Valve_Open: Status of Inlet Valve (1 = open, 0 = closed)
+In_Valve_Close: Status of Inlet Valve (1 = closed, 0 = open)
+In_Valve_Remote: Remote status of Inlet Valve (1 = remote, 0 = local)
+
+Rec_Valve_Open: Recirculation valve open status (1 = open, 0 = closed)
+Bypass_Valve_Close: Bypass valve close status (1 = closed, 0 = open)
+
+Spp_Trip: Setpoint pump trip flag (1 = tripped, 0 = normal)
+Power_Fail: Power failure indicator (1 = failure, 0 = normal)
+
+NRW: Non-Revenue Water (absolute, cubic meters)
+NRW_per: Non-Revenue Water (percentage, %)
+
+recommendation: Output text generated from performance curve analysis
+
+Bypass_Valve_Mode: Dashboard toggle for bypass valve mode (1 = bypass, 0 = normal)
+Bypass_Water_Flow_Active: Visual status of bypass water flow (1 = active, 0 = inactive)
+Show_Water_in_Pipe: Visual indicator for water in pipe (1 = visible, 0 = hidden)
+Water_Animation_Speed: Animation speed for water flow visualization
+Show_Water_General_Pipes: Visual indicator for general pipes (1 = visible, 0 = hidden)
+Show_Water_Bypass_Mode_Only: Visual indicator for bypass mode only (1 = visible, 0 = hidden)
+
+actualDailyConsumption: Actual daily water consumption (cubic meters)
+Total_Distributed_Water: Total distributed water (cubic meters)
+Total_Incoming_Water: Total incoming water (cubic meters)
+
+# Forecasting keys for water
+Forecasted_Consumption_Daily: Predicted total water consumption for the upcoming day.
+Forecasted_Consumption_Daily_Lower: Lower bound of confidence interval for predicted daily water consumption.
+Forecasted_Consumption_Daily_Upper: Upper bound of confidence interval for predicted daily water consumption.
+
+# Forecasting keys for energy
+fixed_energy_forecasting: Predicted total energy consumption for the upcoming day.
+fixed_energy_forecasting_upper: Upper bound of confidence interval for predicted energy consumption.
+fixed_energy_forecasting_lower: Lower bound of confidence interval for predicted energy consumption.
